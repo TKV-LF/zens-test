@@ -1,7 +1,4 @@
 # zens-test - Joke Voting App
-
-This application allows users to view jokes and vote on them. It displays a single joke for the user to read, allows the user to like or dislike the joke, and records the vote in a database. When all available jokes have been voted on, it shows a message indicating the end of available jokes for the day.
-
 ## Features
 
 - Display a single joke to the user.
@@ -31,7 +28,7 @@ This application allows users to view jokes and vote on them. It displays a sing
 2. Navigate to the project directory:
 
    ```bash
-      cd zens-test
+   cd zens-test
 
 3. Start the Docker environment:
 
