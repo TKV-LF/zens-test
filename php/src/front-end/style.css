@@ -1,21 +1,38 @@
 /* Add your styles here */
 /* Example styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
 }
 
-.joke-container {
-  text-align: center;
-  margin-top: 50px;
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #969696;
+}
+
+.sub-header .h2 {
+  letter-spacing: 2px;
 }
 
 .joke-text {
   font-size: 18px;
   margin-bottom: 20px;
+  line-height: 1.6;
 }
 
 .button-container button {
-  padding: 10px 20px;
-  margin-right: 10px;
-  cursor: pointer;
+  border-radius: 0px;
+  -webkit-box-shadow:0px 1px 1px #222;
+  -moz-box-shadow:0px 1px 1px #222;
+  box-shadow:0px 1px 1px #222;}
+
+.d-flex {
+  gap: 20px;
+}
+
+.footer .description {
+  color: #969696;
+  font-size: 16px;
 }
