@@ -1,0 +1,21 @@
+/* Add your styles here */
+/* Example styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.joke-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.joke-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
