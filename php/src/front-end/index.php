@@ -11,14 +11,67 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 </head>
+<style>
+  .d-flex {
+    gap: 20px;
+  }
+
+  .footer .description {
+    color: #969696;
+  }
+</style>
 
 <body>
-  <div class="joke-container">
-    <p class="joke-text" id="jokeText">Loading joke...</p>
-    <p class="joke-id d-none" id="jokeId">0</p>
-    <div class="button-container">
-      <button onclick="vote('like')">Like</button>
-      <button onclick="vote('dislike')">Dislike</button>
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <img src="https://zen-s.com/wp-content/themes/zenS/Logo.svg" alt="">
+        </a>
+      </div>
+      <div class="col-md-3 text-end">
+        <div class="row">
+          <div class="col-6">
+            <div class="row float-right" style="color: #969696">Handicrapted by</div>
+            <div class="row float-right">Trong Thuy</div>
+          </div>
+          <div class="col-6">
+            <img src="https://img.freepik.com/premium-vector/happy-flower-icon_76844-2641.jpg" width="50px"
+              height="50px" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="sub-header" style='background-color: #00B65A'>
+    <div class="container py-5">
+      <div class="h2 text-center text-white">A joke a day keeps the docter away</div>
+      <div class="p text-center text-white">If you joke wrong way, your teeth have to pay. (Serious)</div>
+    </div>
+  </div>
+  <div class="main border-bottom">
+    <div class="container text-center py-5">
+      <p class="joke-text" id="jokeText" style='color: #646464'>Loading joke...</p>
+      <p class="joke-id d-none" id="jokeId">0</p>
+      <div class="button-container d-flex justify-content-center my-5 mx-5 px-5 py-4 border-top">
+        <button type='button' onclick="vote('like')" class='btn btn-primary w-25'>This is Funny!</button>
+        <button type='button' onclick="vote('dislike')" class='btn btn-success w-25'>This is not funny.</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container text-center mt-5">
+      <div class="description">
+        <div class="p">The website is created as part of Hlsolutions program. The materials contained on
+          this
+          website are provided for general</div>
+        <div class="p">information only and do not consitute any form of advice. HLS assumes no
+          responsibility
+          for the accuracy of any particular statement and</div>
+        <div class="p">acceps no liability for any loss or damage which may arise from reliance on the
+          information contained this site</div>
+      </div>
+      <div class='mt-3'>Copyright 2021 ThuyNT</div>
     </div>
   </div>
 
